@@ -7,7 +7,7 @@ book:
   author: "Jane Doe"
   date: "3/17/2023"
   chapters:
-    - index.qmd
+    - index1.qmd
     - intro.qmd
     - summary.qmd
     - references.qmd
