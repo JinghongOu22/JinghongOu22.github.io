@@ -1,5 +1,5 @@
 # References {.unnumbered}
 
 ::: {#refs}
-[@andya; @ciesina; @earthsciencedatasystems2020a; @sensorexperta]
+[@andya; @ciesina; @earthsciencedatasystems2020a; @sensorexperta][@chavez1988; @toutin2004][@kloog2014; @wu2015][@kim2014; @pekel2016][@gitelson2003; @pal2005]
 :::

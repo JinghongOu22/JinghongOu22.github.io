@@ -18,9 +18,9 @@ This week we focus on Remote Sensing Data Corrections, Joining, and Enhancement.
 
 ## Application
 
-**Dark Object Subtraction (DOS) Application Example**: DOS has been widely used in the processing of remote sensing data, particularly in the field of land cover and land use classification. One such example is the monitoring of water quality in coastal and inland water bodies. In this context, DOS is applied to correct for atmospheric effects, particularly scattering caused by aerosols and water vapor.
+**Dark Object Subtraction (DOS) Application Example**: DOS has been widely used in the processing of remote sensing data, particularly in the field of land cover and land use classification. One such example is the monitoring of water quality in coastal and inland water bodies. In this context, DOS is applied to correct for atmospheric effects, particularly scattering caused by aerosols and water vapor [@chavez1988].
 
-**Geometric Corrections Application Example**: Geometric corrections are essential for various remote sensing applications, such as change detection and land cover mapping. One example is the creation of accurate and up-to-date maps for urban planning and management. In this case, geometric corrections are applied to high-resolution satellite images to ensure proper alignment with existing maps or other geospatial data. This ensures that the analysis and decision-making processes are based on accurate and consistent information.
+**Geometric Corrections Application Example**: Geometric corrections are essential for various remote sensing applications, such as change detection and land cover mapping. One example is the creation of accurate and up-to-date maps for urban planning and management. In this case, geometric corrections are applied to high-resolution satellite images to ensure proper alignment with existing maps or other geospatial data. This ensures that the analysis and decision-making processes are based on accurate and consistent information [@toutin2004].
 
 ## Reflection
 
