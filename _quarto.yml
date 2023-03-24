@@ -3,7 +3,7 @@ project:
 
 book:
   title: "JinghongOu Diary"
-  author: "Jane Doe"
+  author: "Jinghong Ou"
   date: "1/19/2023"
   chapters:
     - index.qmd
@@ -15,7 +15,6 @@ book:
     - Diary6.qmd
     - Diary7.qmd
     - Diary8.qmd
-    - Diary9.qmd
     - references.qmd
 
 bibliography: references.bib

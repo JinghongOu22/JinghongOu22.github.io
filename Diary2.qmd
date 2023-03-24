@@ -1,1 +1,7 @@
-# Diary 2: {.unnumbered}
+# Diary: Presentation
+
+```{r, echo = FALSE, out.width='40%'}
+xaringanExtra::embed_xaringan(
+  url = "https://jinghongou22.github.io/For/Untitled.html#1",
+  ratio = "4:3")
+```

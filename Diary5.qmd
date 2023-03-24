@@ -1,1 +1,40 @@
-# Diary 5: {.unnumbered}
+# Diary: Google Earth Engine
+
+## Summary
+This week, we mainly covered the basic features of Google Earth Engine and how to use it. In the class. Cloud-based platform that allows users to analyze and visualize large amounts of geospatial data from various sources, including satellite imagery, climate data, and terrain information. It provides access to pre-processed data and tools for data analysis, such as machine learning algorithms, image classification, and time series analysis.
+We also learned about the data format used in GEE, which is raster, and what a collection is, which refers to several images or polygons. Additionally, we discussed the differences between client-side and server-side processing, as well as some common issues that can arise when using GEE, such as loops and mapping.
+Furthermore, the class went into detail on how to use GEE, including how to load datasets and perform typical operations in GEE, such as reducing images, regression, joins, and filtering.
+
+![](figure/5.Google Earth Engine.png)
+## Application
+
+Example 1: Deforestation Monitoring and Analysis
+Problem: Deforestation is a major environmental issue that contributes to climate change, loss of biodiversity, and disruption of local communities' livelihoods. Monitoring deforestation and understanding its patterns can help inform policy and conservation efforts.
+Google Earth Engine (GEE) Application: GEE can be used to monitor and analyze deforestation in near real-time using satellite imagery. By leveraging GEE's vast library of datasets (e.g., Landsat and Sentinel), users can develop algorithms to detect changes in forest cover over time. One such example is the Global Forest Change project (Hansen et al., 2013), which provides annual tree cover loss data from 2000 to 2020.
+Using GEE, users can:
+1. Import relevant datasets (e.g., Landsat, Sentinel, and Global Forest Change).
+2. Apply pre-processing steps, such as cloud masking, to improve the quality of the input images.
+3. Perform classification of land cover types (forest, non-forest) using supervised or unsupervised machine learning techniques.
+4. Calculate the difference between the images from different time periods to detect forest cover changes.
+5. Visualize the results and export them as maps or data files.
+Limitations: The accuracy of deforestation detection depends on the quality of the input data and the classification algorithm used. Cloud cover can also limit the availability of satellite images in some regions. Additionally, the temporal resolution of the available satellite data may not be sufficient for detecting rapid deforestation events.
+Reference: Hansen, M. C., Potapov, P. V., Moore, R., Hancher, M., Turubanova, S. A., Tyukavina, A., ... & Townshend, J. R. (2013). High-resolution global maps of 21st-century forest cover change. Science, 342(6160), 850-853.
+Example 2: Flood Risk Assessment and Management
+Problem: Climate change has increased the frequency and severity of flood events worldwide. Accurate flood risk assessment and management are crucial for minimizing the loss of life and property.
+Google Earth Engine (GEE) Application: GEE can be used to model and analyze flood risk by combining various datasets, such as digital elevation models (DEMs), land use/land cover, precipitation, and river flow data. An example of this application is the Global Flood Risk Monitoring project (Pekel et al., 2016), which uses GEE to estimate flood risks at a global scale.
+Using GEE, users can:
+6. Import relevant datasets (e.g., SRTM, GPM, and land use/land cover data).
+7. Develop hydrological models to simulate river flow and flood inundation using inputs such as precipitation and elevation data.
+8. Combine the simulated flood data with land use/land cover data to assess the impact of floods on various land types and infrastructure.
+9. Analyze historical flood events to estimate the probability of future floods and identify high-risk areas.
+10. Visualize the results as maps or graphs and export the data for further analysis.
+Limitations: The accuracy of flood risk assessment depends on the quality and resolution of the input datasets and the hydrological models used. Data gaps or inaccuracies in the input data can lead to errors in flood risk estimates. Additionally, GEE might not be suitable for simulating highly detailed or localized flood events due to its global focus and resolution constraints.
+Reference: Pekel, J. F., Cottam, A., Gorelick, N., & Belward, A. S. (2016). High-resolution mapping of global surface water and its long-term changes. Nature, 540(7633), 418-422.
+
+## Reflection
+
+Google Earth Engine (GEE) is an innovative and powerful tool that has transformed the way we analyze and understand our planet. Its ability to process large volumes of geospatial data and satellite imagery in near real-time has made it possible to tackle complex environmental problems, such as deforestation and flood risk assessment, at an unprecedented scale and speed.
+What is particularly interesting about GEE is its cloud-based architecture, which allows users to access and process vast amounts of data without the need for high-performance computing resources. This democratizes access to satellite imagery and other geospatial data, making it available to researchers, policymakers, and organizations around the world.
+The data and tools provided by GEE are likely to become even more useful in the future as the availability and resolution of satellite imagery continue to improve. As new satellites are launched and data collection techniques are refined, GEE will enable us to monitor the Earth's surface with increasing accuracy and detail. This will facilitate more effective decision-making in areas such as land management, conservation, urban planning, and disaster response.
+Furthermore, as machine learning and artificial intelligence technologies continue to advance, the integration of these techniques within GEE has the potential to significantly enhance the analysis of geospatial data. This can lead to more accurate and sophisticated models of environmental phenomena and improved predictions of future events.
+Despite its many advantages, GEE may not be the perfect solution for every geospatial problem, particularly for highly localized or specialized analyses that require data with a finer resolution or different datasets than those currently available in GEE. However, the ongoing development of similar platforms, either as extensions to GEE or as independent tools, can help address these limitations and ensure that the power of geospatial data analysis is accessible to an even broader range of users and applications.
